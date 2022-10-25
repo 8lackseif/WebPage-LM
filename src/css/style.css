@@ -24,7 +24,7 @@ body {
     text-align: center;
     margin-top: 15vh;
 }
-
+/*header*/
 header{
     position: fixed;
     top: 0;
@@ -32,11 +32,28 @@ header{
     height: 10vh;
     border: 3px solid black;
 }
-
+#marca{
+    float: left;
+    width: auto;
+    height: 10vh;
+    border: 3px solid black;
+}
+#carrito{
+    float: left;
+    width: auto;
+    height: 10vh;
+    border: 3px solid black;
+}
+.navegador{
+    border: 3px solid black;
+    float: left;
+    height: 10vh;
+}
+/*main*/
 main{
     border: 3px solid black;
 }
-
+/*footer*/
 footer{
     display: block;
     width: 100%;
