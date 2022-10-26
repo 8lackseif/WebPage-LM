@@ -34,16 +34,17 @@ header{
 }
 #marca{
     float: left;
-    width: auto;
+    width: 20vw;
     height: 10vh;
     border: 3px solid black;
 }
 #carrito{
-    float: left;
-    width: auto;
+    float: right;
+    width: 20vw;
     height: 10vh;
     border: 3px solid black;
 }
+
 .navegador{
     border: 3px solid black;
     float: left;
