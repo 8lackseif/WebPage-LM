@@ -28,11 +28,7 @@ body {
     height: 100vh;
     text-align: center;
     margin-top: 15vh;
-<<<<<<< Updated upstream
     background-color: whitesmoke;
-=======
-    background: linear-gradient(var(--mel),var(--mel),var(--meld),var(--mel));
->>>>>>> Stashed changes
 }
 /*header*/
 header{
@@ -43,11 +39,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-<<<<<<< Updated upstream
     background: linear-gradient(var(--mel),var(--meld));
-=======
-    background: linear-gradient(var(--sub),var(--mel));
->>>>>>> Stashed changes
 }
 /*marca*/
 #marca{
