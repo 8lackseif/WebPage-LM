@@ -8,7 +8,6 @@
     --mel: #F894A4;
     --meld: #f6b68c;
     --sub: rgb(201, 95, 95);
-    --neg: rgb(0, 0, 0);
  }
 *{
     margin: 0;
@@ -29,7 +28,7 @@ body {
     height: 100vh;
     text-align: center;
     margin-top: 15vh;
-    background: linear-gradient(var(--mel),var(--mel),var(--meld),var(--mel));
+    background-color: whitesmoke;
 }
 /*header*/
 header{
@@ -40,12 +39,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(var(--sub),var(--mel));
+    background: linear-gradient(var(--mel),var(--meld));
 }
 /*marca*/
 #marca{
     width: 20vw;
-    border: 3px solid var(--neg);
+    border: 3px solid black;
     font-family: 'fuente';
 }
 /*carrito*/
@@ -71,7 +70,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: var(--neg);
+    color: black;
     position: relative;
     cursor: pointer;
     font-family: 'fuente';
@@ -102,7 +101,7 @@ footer{
     display: block;
     width: 100%;
     height: 10vh;
-    background: linear-gradient(var(--mel),var(--sub));
+    background: linear-gradient(var(--meld),var(--mel));
 }
 
 footer #copyright{
@@ -119,7 +118,7 @@ footer .quote{
 /*main*/
 main{
     margin: 5vh;
-    border: 3px solid var(--neg);
+    border: 3px solid black;
     height: 100%;
 }
 
@@ -130,35 +129,35 @@ main{
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 /*Creado por Bin, Gerardo y Christian*/
