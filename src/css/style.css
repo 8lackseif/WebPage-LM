@@ -1,10 +1,6 @@
 @font-face {
     font-family: 'fuente';
-<<<<<<< HEAD
-    src: url('../resources/Hogback_Demo_Version.ttf') format("truetype");
-=======
     src: url('../resources/Hogback.ttf') format("truetype");
->>>>>>> 4071fcc5b21fd2acb6a834e28bd10cd856102844
     font-weight: normal;
     font-style: normal;
  }
