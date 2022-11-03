@@ -8,6 +8,7 @@
     --mel: #F894A4;
     --meld: #F9D1B7;
     --sub: rgb(201, 95, 95);
+    --neg: black;
  }
 *{
     margin: 0;
@@ -28,7 +29,7 @@ body {
     height: 100vh;
     text-align: center;
     margin-top: 15vh;
-    background-color: rgb(250, 245, 245)
+    background-color: var(--meld);
 }
 /*header*/
 header{
@@ -39,14 +40,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 3px solid rgb(177, 114, 86);
+    border: 3px solid var(--sub);
     border-radius: 0 0px 10px 10px;
-    background: linear-gradient(var(--mel),var(--meld));
+    background: linear-gradient(var(--sub),var(--mel));
 }
 /*marca*/
 #marca{
     width: 20vw;
-    border: 3px solid black;
+    border: 3px solid var(--neg);
     font-family: 'fuente';
 }
 /*carrito*/
@@ -72,7 +73,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: var(--neg);
     position: relative;
     cursor: pointer;
     font-family: 'fuente';
@@ -103,7 +104,7 @@ footer{
     display: block;
     width: 100%;
     height: 10vh;
-    background: linear-gradient(var(--meld),var(--mel));
+    background: linear-gradient(var(--mel),var(--sub));
 }
 
 footer #copyright{
@@ -120,7 +121,7 @@ footer .quote{
 /*main*/
 main{
     margin: 5vh;
-    border: 3px solid black;
+    border: 3px solid var(--neg);
     height: 100%;
 }
 /*Creado por Bin, Gerardo y Christian*/
