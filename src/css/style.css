@@ -103,9 +103,9 @@ footer{
 
 #copyright{
     position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 5vh;
+    bottom: 3px;
+    right: 3px;
+    height: 3vh;
 }
 
 /*main*/
