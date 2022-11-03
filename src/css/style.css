@@ -28,7 +28,7 @@ body {
     height: 100vh;
     text-align: center;
     margin-top: 15vh;
-    background-color: rgb(250, 245, 245)
+    background-color: whitesmoke;
 }
 /*header*/
 header{
@@ -39,8 +39,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 3px solid rgb(177, 114, 86);
-    border-radius: 0 0px 10px 10px;
     background: linear-gradient(var(--mel),var(--meld));
 }
 /*marca*/
