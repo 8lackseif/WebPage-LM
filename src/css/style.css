@@ -121,6 +121,7 @@ main{
     margin: 5vh;
     border: 3px solid var(--neg);
     height: 100%;
+    width: 95%;
 }
 
 
