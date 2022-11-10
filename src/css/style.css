@@ -128,14 +128,17 @@ main{
 /*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
 section .tienda{    
     border: 3px solid var(--neg);
+    margin: 3px;
     width: 95%;
+    position: relative;
     justify-content: space-between;
+    display: inline-block;
 }
 article .tienda{
+    position: absolute;
     border: 3px solid var(--neg);
-    width: 33%;
-    margin: 5%;
-    display: block;
+    width: 33vw;
+    margin: 5px;
 }
 
 
