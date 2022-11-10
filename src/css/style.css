@@ -39,7 +39,7 @@ header{
     height: 15vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background: linear-gradient(var(--sub),var(--mel));
 }
 /*marca*/
@@ -47,6 +47,7 @@ header{
     width: 20vw;
     border: 3px solid var(--neg);
     font-family: 'fuente';
+    justify-content: space-around;
 }
 /*carrito*/
 #carrito{
