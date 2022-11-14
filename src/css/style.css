@@ -6,8 +6,9 @@
  }
  :root{
     --mel: #BD1059;
-    --meld: #BD7410;
+    --meld: #bd75107b;
     --sub: #BD1E10;
+    --bg: #ff9999b6;
     --neg: rgb(0, 0, 0);
  }
 *{
@@ -29,7 +30,7 @@ body {
     height: 100vh;
     text-align: center;
     margin-top: 15vh;
-    background: linear-gradient(var(--mel),var(--mel),var(--meld),var(--mel));
+    background: var(--bg);
 }
 /*header*/
 header{
@@ -40,7 +41,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(var(--sub),var(--mel));
+    background: linear-gradient(var(--sub),var(--meld),var(--bg));
 }
 /*marca*/
 #marca{
@@ -82,7 +83,7 @@ nav ul li a::before{
     content: "";
     height: 3px;
     width: 0%;
-    background: var(--sub);
+    background: var(--mel);
     position: absolute;
     left: 0;
     bottom: -4px;
@@ -103,7 +104,7 @@ footer{
     display: block;
     width: 100%;
     height: 10vh;
-    background: linear-gradient(var(--mel),var(--sub));
+    background: linear-gradient(var(--bg),var(--mel),var(--sub));
 }
 
 footer #copyright{
