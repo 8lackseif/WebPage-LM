@@ -5,9 +5,9 @@
     font-style: normal;
  }
  :root{
-    --mel: #F894A4;
-    --meld: #f6b68c;
-    --sub: rgb(201, 95, 95);
+    --mel: #BD1059;
+    --meld: #BD7410;
+    --sub: #BD1E10;
     --neg: rgb(0, 0, 0);
  }
 *{
