@@ -136,7 +136,7 @@ section .tienda{
     display: inline-block;
 }
 article .tienda{
-    position: absolute;
+    position: relative;
     border: 3px solid var(--neg);
     width: 33vw;
     margin: 5px;
