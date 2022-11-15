@@ -5,9 +5,9 @@
     font-style: normal;
  }
  :root{
-    --mel: #9794f8;
-    --meld: #f6b68c;
-    --sub: rgb(201, 95, 95);
+    --mel: #e4e4f1;
+    --meld: #b17b57;
+    --sub: #e29d6f;
     --neg: rgb(0, 0, 0);
  }
 *{
@@ -40,8 +40,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(var(--sub),var(--mel));
+    background: var(--sub);
     border-bottom: 1px solid rgba(44, 45, 42, 0.25);
+    z-index: 999;
 }
 /*marca*/
 #marca{
@@ -61,7 +62,7 @@ header{
     max-height: 100%;
 }
 .producto{
-    background: linear-gradient(var(--sub),var(--mel));
+    background: var(--sub);
 }
 #carrito:hover{
     overflow: visible;
@@ -83,7 +84,7 @@ nav ul li a::before{
     content: "";
     height: 3px;
     width: 0%;
-    background: var(--sub);
+    background: var(--meld);
     position: absolute;
     left: 0;
     bottom: -4px;
