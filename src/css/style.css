@@ -125,6 +125,12 @@ main{
     height: 100vh;
     width: 95%;
 }
+h1{
+    font-family: 'fuente';
+}
+p{
+    font-family: 'fuente';
+}
 
 
 /*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
@@ -192,5 +198,6 @@ input[type=submit]:hover {
    height: 50%;
    border: 1px solid black;
 }
+
 
 /*Creado por Bin, Gerardo y Christian*/
