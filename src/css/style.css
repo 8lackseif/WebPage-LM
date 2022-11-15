@@ -5,7 +5,7 @@
     font-style: normal;
  }
  :root{
-    --mel: #F894A4;
+    --mel: #f894a5;
     --meld: #f6b68c;
     --sub: rgb(201, 95, 95);
     --neg: rgb(0, 0, 0);
@@ -132,22 +132,14 @@ section .tienda{
     border: 3px solid var(--neg);
     margin: 3px;
     width: 95%;
-    position: relative;
     justify-content: space-between;
     display: inline-block;
 }
 article .tienda{
-    position: relative;
     border: 3px solid var(--neg);
     width: 33vw;
     margin: 5px;
 }
-
-
-
-
-
-/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
 
 /* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
 
