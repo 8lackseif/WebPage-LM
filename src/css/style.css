@@ -35,12 +35,13 @@ body {
 header{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 98%;
     height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(var(--sub),var(--mel));
+    border-bottom: 1px solid rgba(44, 45, 42, 0.25);
 }
 /*marca*/
 #marca{
@@ -124,6 +125,28 @@ main{
     width: 95%;
 }
 
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+section .tienda{    
+    border: 3px solid var(--neg);
+    margin: 3px;
+    width: 95%;
+    position: relative;
+    justify-content: space-between;
+    display: inline-block;
+}
+article .tienda{
+    position: relative;
+    border: 3px solid var(--neg);
+    width: 33vw;
+    margin: 5px;
+}
+
+
+
+
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
 
 /* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
 
