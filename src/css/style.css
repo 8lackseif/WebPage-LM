@@ -5,10 +5,9 @@
     font-style: normal;
  }
  :root{
-    --mel: #BD1059;
-    --meld: #bd75107b;
-    --sub: #BD1E10;
-    --bg: #ff9999b6;
+    --mel: #F894A4;
+    --meld: #f6b68c;
+    --sub: rgb(201, 95, 95);
     --neg: rgb(0, 0, 0);
  }
 *{
@@ -27,29 +26,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     margin-top: 15vh;
-    background: var(--bg);
+    background: linear-gradient(var(--mel),var(--mel),var(--meld),var(--mel));
 }
 /*header*/
 header{
     position: fixed;
     top: 0;
-    width: 98%;
+    width: 100%;
     height: 15vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background: linear-gradient(var(--sub),var(--meld),var(--bg));
-    border-bottom: 1px solid rgba(44, 45, 42, 0.25);
+    justify-content: space-between;
+    background: linear-gradient(var(--sub),var(--mel));
 }
 /*marca*/
 #marca{
     width: 20vw;
     border: 3px solid var(--neg);
     font-family: 'fuente';
-    justify-content: space-around;
 }
 /*carrito*/
 #carrito{
@@ -84,7 +81,7 @@ nav ul li a::before{
     content: "";
     height: 3px;
     width: 0%;
-    background: var(--mel);
+    background: var(--sub);
     position: absolute;
     left: 0;
     bottom: -4px;
@@ -105,7 +102,7 @@ footer{
     display: block;
     width: 100%;
     height: 10vh;
-    background: linear-gradient(var(--bg),var(--meld),var(--sub));
+    background: linear-gradient(var(--mel),var(--sub));
 }
 
 footer #copyright{
@@ -127,48 +124,26 @@ main{
     width: 95%;
 }
 
-/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
-section .tienda{    
-    border: 3px solid var(--neg);
-    margin: 3px;
-    width: 95%;
-    position: relative;
-    justify-content: space-between;
-    display: inline-block;
-}
-article .tienda{
-    position: relative;
-    border: 3px solid var(--neg);
-    width: 33vw;
-    margin: 5px;
-}
-
-
-
-
-
-/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
 
 /* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
 
 
-/* Style inputs with type="text", select elements and textareas */
+
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid var(--sub); /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--sub); 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical 
 }
 label{
     font-family: 'fuente';
     font-size: 2em;
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: var(--sub);
   color: var(--meld);
@@ -178,12 +153,10 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: var(--sub);
 }
 
-/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: var(--mel);
