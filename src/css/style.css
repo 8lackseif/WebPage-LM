@@ -182,6 +182,7 @@ input[type=submit]:hover {
 }
 
 .container {
+  height: 100vh;
   border-radius: 5px;
   background-color: var(--mel);
   padding: 20px;
