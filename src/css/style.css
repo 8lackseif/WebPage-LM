@@ -134,7 +134,7 @@ p{
 
 
 /*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
-section .tienda{    
+section .tienda-s{    
     border: 3px solid var(--neg);
     margin: 3px;
     width: 95%;
@@ -145,7 +145,7 @@ section .tienda{
     padding: 10px;
   }
   
-article .tienda{
+article .tienda-a{
     border: 3px solid var(--neg);
     width: 33vw;
     margin: 5px;
