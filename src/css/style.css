@@ -189,14 +189,13 @@ input[type=submit]:hover {
 }
 
 /*style Home*/
-main,#home{
+#home{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
 }
 .slider{
-
    width: 70%;
    height: 50%;
    border: 1px solid black;
