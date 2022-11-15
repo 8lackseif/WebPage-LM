@@ -187,4 +187,19 @@ input[type=submit]:hover {
   background-color: var(--mel);
   padding: 20px;
 }
+
+/*style Home*/
+main,#home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.slider{
+
+   width: 70%;
+   height: 50%;
+   border: 1px solid black;
+}
+
 /*Creado por Bin, Gerardo y Christian*/
