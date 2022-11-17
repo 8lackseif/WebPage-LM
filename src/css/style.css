@@ -5,9 +5,9 @@
     font-style: normal;
  }
  :root{
-    --mel: #e4e4f1;
-    --meld: #b17b57;
-    --sub: #e29d6f;
+    --mel: #e8e8ee;
+    --meld: #992d2d;
+    --sub: #e2776f;
     --neg: rgb(0, 0, 0);
  }
 *{
@@ -202,6 +202,7 @@ input[type=submit]:hover {
    height: 50%;
    border: 1px solid black;
    transform: translate(25%,10%);
+   overflow: hidden;
 }
 .navigator{
     display: flex;
