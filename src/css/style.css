@@ -17,18 +17,9 @@
     font-family: Arial, Helvetica, sans-serif;
     cursor: url("../resources/cursor_zanahoria.png"),auto;
 }
-    
 body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-image: url("../resources/UDP2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
+    min-height: 100%;
     text-align: center;
-    margin-top: 15vh;
     background: var(--mel);
 }
 /*header*/
@@ -60,16 +51,24 @@ header{
 }
 /*carrito*/
 #carrito{
+    background: var(--sub);
     width: 20vw;
-    height: 90px;
+    height: auto;
     overflow: hidden;
 }
 #carrito img{
+    margin-top: 10vh;
+    margin-right: 0;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 120px;
+}
+.productos_carrito{
+    
 }
 .producto{
+    height: 10vh;
     background: var(--sub);
+
 }
 #carrito:hover{
     overflow: visible;
@@ -128,10 +127,10 @@ footer .quote{
 }
 /*main*/
 main{
-    margin: 5vh;
+    margin-top: 15vh;
     border: 3px solid var(--neg);
-    height: 100vh;
-    width: 95%;
+    height: auto;
+    width: 100%;
 }
 h1{
     font-family: 'fuente';
@@ -165,7 +164,10 @@ article .tienda-a{
 }
 
 /* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
-
+#home{
+    padding-bottom: 30vh;
+    border: none;
+}
 
 
 input[type=text], select, textarea {
@@ -205,17 +207,18 @@ input[type=submit]:hover {
 
 /*style Home*/
 .slider{
-   width: 70%;
-   height: 50%;
+   width: 75vw;
+   height: 75vh;
+   margin: auto;
+   margin-top: 5vh;
    border: 1px solid black;
-   transform: translate(25%,10%);
    overflow: hidden;
 }
 .navigator{
     display: flex;
     position: absolute;
     left: 50%;
-    bottom: 20px;
+    bottom: 1vh;
     transform: translate(-50%);
 }
 .navigator .bar{
@@ -257,6 +260,12 @@ input[type="radio"]{
     margin-left: -40%;
 }
 
+
+.topphones{
+    margin-top: 10vh;
+    border: solid black 1px;
+    height: 20vh;
+}
 
 
 
