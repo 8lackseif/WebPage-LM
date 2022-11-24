@@ -15,7 +15,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    cursor: url("../resources/cursor_zanahoria.png"),auto;
 }
 body {
     min-height: 100%;
