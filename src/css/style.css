@@ -53,22 +53,20 @@ header{
 #carrito{
     background: var(--sub);
     width: 20vw;
-    height: auto;
+    height: 12vh;
     overflow: hidden;
 }
 #carrito img{
-    margin-top: 10vh;
-    margin-right: 0;
     max-width: 100%;
-    max-height: 120px;
+    max-height: 12vh;
 }
 .productos_carrito{
-    
+    transform: translateY(-1%);
+    background: var(--sub);
+    border: solid var(--meld) 1px;
 }
 .producto{
     height: 10vh;
-    background: var(--sub);
-
 }
 #carrito:hover{
     overflow: visible;
@@ -164,12 +162,6 @@ article .tienda-a{
 }
 
 /* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
-#home{
-    padding-bottom: 30vh;
-    border: none;
-}
-
-
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -205,7 +197,11 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-/*style Home*/
+/*style Home---------------------------------------------------------------------------------------*/
+#home{
+    padding-bottom: 30vh;
+    border: none;
+}
 .slider{
    width: 75vw;
    height: 75vh;
