@@ -33,6 +33,7 @@ header{
     background: var(--sub);
     border-bottom: 1px solid rgba(44, 45, 42, 0.25);
     z-index: 999;
+    box-shadow: black 0px 0px 10px;
 }
 /*marca*/
 #marca{
@@ -48,6 +49,7 @@ header{
     width: 12vw;
     height: 12vh;
 }
+
 /*carrito*/
 #carrito{
     background: var(--sub);
@@ -208,6 +210,7 @@ input[type=submit]:hover {
    margin-top: 5vh;
    border: 1px solid black;
    overflow: hidden;
+   box-shadow: black 0px 0px 5px;
 }
 .navigator{
     display: flex;
@@ -257,9 +260,42 @@ input[type="radio"]{
 
 
 .topphones{
-    margin-top: 10vh;
+    margin: 1vh 2vw;
+    height: 30vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: var(--meld) dashed 3px;
+    border-width: 3px 0px 3px 0px;
+ }
+.vermas{
+    width: 100%;
+
+}
+.vermas a{
+    text-decoration: none;
+    color: black;
+}
+.vermas p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    width: 5vw;
+    margin-top: 5vh;
+    margin-left: 93%;
+    border: solid black 2px;
+    box-shadow: black 0px 0px 5px;
+}
+
+.vermas p:hover{
+    background-color: rgb(204, 204, 204);
+}
+
+.cajita{
+    width: 15vw;
+    height: 25vh;
+    margin-left: 2vw;
     border: solid black 1px;
-    height: 20vh;
+    box-shadow: black 0px 0px 5px;
 }
 
 
