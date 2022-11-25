@@ -203,7 +203,7 @@ input[type=submit]:hover {
 }
 .slider{
    width: 75vw;
-   height: 75vh;
+   height: 60vh;
    margin: auto;
    margin-top: 5vh;
    border: 1px solid black;
@@ -213,7 +213,7 @@ input[type=submit]:hover {
     display: flex;
     position: absolute;
     left: 50%;
-    bottom: 1vh;
+    bottom: 28vh;
     transform: translate(-50%);
 }
 .navigator .bar{
