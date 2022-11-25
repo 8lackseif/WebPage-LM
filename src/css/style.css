@@ -147,13 +147,15 @@ p{
     padding: 10px;
   }
   h4{
+    background-color: var(--sub);
     grid-column-start: 1;
     grid-column-end: 4;
   }
   .tienda-a{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    font-family: 'fuente';
+    border: 3px solid var(--meld);
+    border-radius: 15px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
   }
