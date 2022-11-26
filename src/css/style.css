@@ -141,37 +141,53 @@ p{
 
 /*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
 .tienda-s{
-    display: inline-grid;
-    gap: 5px;
-    grid-template-columns: auto auto auto;
+    display: flex;
     background-color: var(--mel);
     padding: 10px;
+    flex-wrap: wrap;
   }
   h4{
     background-color: var(--sub);
-    grid-column-start: 1;
-    grid-column-end: 4;
   }
   .tienda-a{
     font-family: 'fuente';
+    width: 100%;
     border: 3px solid var(--meld);
     border-radius: 15px;
-    padding: 10px;
+    margin:5px;
     font-size: 30px;
     text-align: center;
   }
-.m1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-.m2{
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-.m3{
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
+
+  .mas{
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+  }
+
+  .especificaciones{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(196, 196, 196);
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 1px;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+  .active1, .mas:hover{
+    background-color: rgb(196, 196, 196);
+  }
+
+  .active1{
+    border-radius: 0px;
+  }
+
 
 /* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
 input[type=text], select, textarea {
