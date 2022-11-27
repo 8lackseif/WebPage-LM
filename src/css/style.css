@@ -158,8 +158,16 @@ p{
     font-size: 30px;
     text-align: center;
   }
-
-  .mas{
+.foto{
+    float: left;
+    margin: 2vh 3vw;
+    border: solid var(--meld);
+    border-radius: 5px;
+}
+.tienda-a h6{
+    margin: 2vh;
+}
+.mas{
     cursor: pointer;
     padding: 5px;
     width: 100%;
@@ -168,7 +176,7 @@ p{
     font-size: 30px;
     text-align: center;
     border-radius: 0px 0px 15px 15px;
-  }
+}
 
   .especificaciones{
     padding: 0 18px;
