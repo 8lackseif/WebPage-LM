@@ -9,7 +9,7 @@
     --meld: #992d2d;
     --sub: #e2776f;
     --neg: #000000;
-    --turq: #00a8ada9;
+    --turq: #00a7add1;
     --bg: #c4c4c4;
  }
 *{
@@ -129,7 +129,6 @@ footer .quote{
 /*main*/
 main{
     margin-top: 15vh;
-    border: 3px solid var(--neg);
     height: auto;
     width: 100%;
 }
@@ -147,7 +146,6 @@ p{
 	width: 95%;
     margin: auto;
     margin-top: 1%;
-    font-family: 'fuente';
 }
 
 .wrap h1{
@@ -157,12 +155,11 @@ p{
     border: 3px var(--meld) solid;
     border-radius: 15px;
     padding: 2px ;
-    font-family: 'fuente';
+    font: 3em 'fuente';
 }
 .section{
 	display: flex;
 	height:95%;
-	padding:2px;
 	overflow: hidden;
     font-family: 'fuente';
     margin-top: 2%;
@@ -174,8 +171,9 @@ p{
     justify-content: space-around;
 }
 .article{
+    margin: 3px;
 	border: solid var(--meld) 2px;
-    border-radius: 5px;
+    border-radius: 15px;
 	display: flex;
     flex-direction: column;
 	justify-content: center;
@@ -184,17 +182,23 @@ p{
 	color: var(--sub);
 	width: 30%;
 	height: 30%;
-    box-shadow: var(--turq);
+    box-shadow: 0px 0px 5px var(--turq);
 }
 .foto{
+    height: 45vh;
+    width: 25vw;
     float: left;
     margin: 2vh 3vw;
     border: solid var(--sub);
     border-radius: 5px;
-    box-shadow: var(--turq);
+    box-shadow: 1px 1px 2px var(--turq);
 }
-h5, h6{
+.precio{
+    font-family: 'fuente';
+}
+h2, h3, h4{
     color: var(--meld);
+    font-family: 'fuente';
 }
 .mas{
     cursor: pointer;
@@ -207,7 +211,7 @@ h5, h6{
     border-radius: 0px 0px 15px 15px;
 }
 
-  .especificaciones{
+.especificaciones{
     padding: 0 18px;
     display: none;
     overflow: hidden;
@@ -217,53 +221,46 @@ h5, h6{
     max-height: 0;
     transition: max-height 0.2s ease-out;
   }
+  .especificaciones p{
+    font: 1em sans-serif;
+  }
   .active1, .mas:hover{
     background-color: var(--bg);
   }
-
   .active1{
     border-radius: 0px;
   }
   .color{
 	display: flex;
-	height:95%;
 	overflow: hidden;
     margin-top: 2%;
+    justify-content: space-between;
+    width: 20%;
 }
 .color1{
-	border: solid var(--meld) 2px;
-    border-radius: 100px;
-	display: flex;
-    flex-direction: column;
-	justify-content: center;
+    border-radius: 50%;
 	align-items: center;
-	color: var(--sub);
-	width: 30%;
-	height: 30%;
+	background-color: var(--neg);
+	width: 1.2vw;
+	height: 2vh;
 }
 .color2{
 	border: solid var(--meld) 2px;
-    border-radius: 100px;
-	display: flex;
-    flex-direction: column;
-	justify-content: center;
+    border-radius: 50%;
 	align-items: center;
-	color: var(--turq);
-	width: 30%;
-	height: 30%;
+	background-color: var(--sub);
+	width: 1.2vw;
+	height: 2vh;
 }
 .color3{
 	border: solid var(--meld) 2px;
-    border-radius: 100px;
-	display: flex;
-    flex-direction: column;
-	justify-content: center;
+    border-radius: 50%;
 	align-items: center;
-	color: var(--neg);
-	width: 30%;
-	height: 30%;
+	background-color: var(--turq);
+	width: 1.2vw;
+	height: 2vh;
+    
 }
-
 
 /* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
 input[type=text], select, textarea {
