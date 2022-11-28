@@ -224,6 +224,45 @@ h5, h6{
   .active1{
     border-radius: 0px;
   }
+  .color{
+	display: flex;
+	height:95%;
+	overflow: hidden;
+    margin-top: 2%;
+}
+.color1{
+	border: solid var(--meld) 2px;
+    border-radius: 100px;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--sub);
+	width: 30%;
+	height: 30%;
+}
+.color2{
+	border: solid var(--meld) 2px;
+    border-radius: 100px;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--turq);
+	width: 30%;
+	height: 30%;
+}
+.color3{
+	border: solid var(--meld) 2px;
+    border-radius: 100px;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--neg);
+	width: 30%;
+	height: 30%;
+}
 
 
 /* +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ */
