@@ -8,7 +8,9 @@
     --mel: #e8e8ee;
     --meld: #992d2d;
     --sub: #e2776f;
-    --neg: rgb(0, 0, 0);
+    --neg: #000000;
+    --turq: #00a8ada9;
+    --bg: #c4c4c4;
  }
 *{
     margin: 0;
@@ -33,7 +35,7 @@ header{
     background: var(--sub);
     border-bottom: 1px solid rgba(44, 45, 42, 0.25);
     z-index: 999;
-    box-shadow: black 0px 0px 10px;
+    box-shadow: var(--neg) 0px 0px 10px;
 }
 /*marca*/
 #marca{
@@ -140,32 +142,59 @@ p{
 
 
 /*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
-.tienda-s{
-    display: flex;
-    background-color: var(--mel);
-    padding: 10px;
-    flex-wrap: wrap;
-  }
-  h4{
-    background-color: var(--sub);
-  }
-  .tienda-a{
+.wrap{
+	height:100%;
+	width: 95%;
+    margin: auto;
+    margin-top: 1%;
     font-family: 'fuente';
-    width: 100%;
-    border: 3px solid var(--meld);
+}
+
+.wrap h1{
+	text-align:center;
+	height: 5%;
+    background-color: var(--sub);
+    border: 3px var(--meld) solid;
     border-radius: 15px;
-    margin:5px;
-    font-size: 30px;
-    text-align: center;
-  }
+    padding: 2px ;
+    font-family: 'fuente';
+}
+.section{
+	display: flex;
+	height:95%;
+	padding:2px;
+	overflow: hidden;
+    font-family: 'fuente';
+    margin-top: 2%;
+}
+.section1{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.article{
+	border: solid var(--meld) 2px;
+    border-radius: 5px;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: var(--sub);
+	width: 30%;
+	height: 30%;
+    box-shadow: var(--turq);
+}
 .foto{
     float: left;
     margin: 2vh 3vw;
-    border: solid var(--meld);
+    border: solid var(--sub);
     border-radius: 5px;
+    box-shadow: var(--turq);
 }
-.tienda-a h6{
-    margin: 2vh;
+h5, h6{
+    color: var(--meld);
 }
 .mas{
     cursor: pointer;
@@ -182,14 +211,14 @@ p{
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: rgb(196, 196, 196);
+    background-color: var(--bg);
     border-radius: 0px 0px 15px 15px;
     margin-bottom: 1px;
     max-height: 0;
     transition: max-height 0.2s ease-out;
   }
   .active1, .mas:hover{
-    background-color: rgb(196, 196, 196);
+    background-color: var(--bg);
   }
 
   .active1{
@@ -243,9 +272,9 @@ input[type=submit]:hover {
    height: 60vh;
    margin: auto;
    margin-top: 5vh;
-   border: 1px solid black;
+   border: 1px solid var(--neg);
    overflow: hidden;
-   box-shadow: black 0px 0px 5px;
+   box-shadow: var(--neg) 0px 0px 5px;
 }
 .navigator{
     display: flex;
@@ -258,8 +287,8 @@ input[type=submit]:hover {
     height: 2vh;
     width: 1vw;
     border-radius: 100%;
-    background-color: black;
-    border: 1px solid black;
+    background-color: var(--neg);
+    border: 1px solid var(--neg);
     margin-left: 8px;
     cursor: pointer;
 }
@@ -309,7 +338,7 @@ input[type="radio"]{
 }
 .vermas a{
     text-decoration: none;
-    color: black;
+    color: var(--neg);
 }
 .vermas p{
     font-family: Arial, Helvetica, sans-serif;
@@ -317,20 +346,20 @@ input[type="radio"]{
     width: 5vw;
     margin-top: 5vh;
     margin-left: 93%;
-    border: solid black 2px;
-    box-shadow: black 0px 0px 5px;
+    border: solid var(--neg) 2px;
+    box-shadow: var(--neg) 0px 0px 5px;
 }
 
 .vermas p:hover{
-    background-color: rgb(204, 204, 204);
+    background-color: var(--bg);
 }
 
 .cajita{
     width: 15vw;
     height: 25vh;
     margin-left: 2vw;
-    border: solid black 1px;
-    box-shadow: black 0px 0px 5px;
+    border: solid var(--neg) 1px;
+    box-shadow: var(--neg) 0px 0px 5px;
 }
 
 
