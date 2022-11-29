@@ -1,4 +1,4 @@
-/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+_TIENDA_*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
 .wrap{
 	height:100%;
 	width: 95%;
@@ -50,6 +50,7 @@
     border: solid var(--sub);
     border-radius: 5px;
     box-shadow: 1px 1px 2px var(--turq);
+    background-color: var(--whi);
 }
 .precio{
     font-family: 'fuente';
@@ -57,6 +58,11 @@
 h2, h3, h4{
     color: var(--meld);
     font-family: 'fuente';
+}
+a{
+    color: var(--sub);
+    font-family: 'fuente';
+    font-size: 1.75em;
 }
 .mas{
     cursor: pointer;
@@ -118,4 +124,7 @@ h2, h3, h4{
 	width: 1.2vw;
 	height: 2vh;
     
+}
+.compra{
+    padding: 2%;
 }
