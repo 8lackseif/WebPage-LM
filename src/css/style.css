@@ -125,6 +125,7 @@ footer .quote{
     margin: 1vh;
     font-family: 'fuente';
     font-size: 2em;
+    align-items: center;
 }
 /*main*/
 main{
