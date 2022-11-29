@@ -1,0 +1,100 @@
+/*style Home---------------------------------------------------------------------------------------*/
+#home{
+    padding-bottom: 30vh;
+    border: none;
+}
+.slider{
+   width: 75vw;
+   height: 60vh;
+   margin: auto;
+   margin-top: 5vh;
+   border: 1px solid var(--neg);
+   overflow: hidden;
+   box-shadow: var(--neg) 0px 0px 5px;
+}
+.navigator{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 28vh;
+    transform: translate(-50%);
+}
+.navigator .bar{
+    height: 2vh;
+    width: 1vw;
+    border-radius: 100%;
+    background-color: var(--neg);
+    border: 1px solid var(--neg);
+    margin-left: 8px;
+    cursor: pointer;
+}
+.navigator .bar:hover{
+    background-color: aliceblue;
+}
+
+input[type="radio"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    display: flex;
+    height: 100%;
+    width: 500%;
+}
+
+.novedades{
+    width: 20%;
+    transition: 0.4s ease-out;
+}
+
+#slide1:checked ~ .first{
+    margin-left: 0;
+}
+#slide2:checked ~ .first{
+    margin-left: -20%;
+}
+#slide3:checked ~ .first{
+    margin-left: -40%;
+}
+
+
+.topphones{
+    margin: 1vh 2vw;
+    height: 30vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: var(--meld) dashed 3px;
+    border-width: 3px 0px 3px 0px;
+ }
+.vermas{
+    width: 100%;
+
+}
+.vermas a{
+    text-decoration: none;
+    color: var(--neg);
+}
+.vermas p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    width: 5vw;
+    margin-top: 5vh;
+    margin-left: 93%;
+    border: solid var(--neg) 2px;
+    box-shadow: var(--neg) 0px 0px 5px;
+}
+
+.vermas p:hover{
+    background-color: var(--bg);
+}
+
+.cajita{
+    width: 15vw;
+    height: 25vh;
+    margin-left: 2vw;
+    border: solid var(--neg) 1px;
+    box-shadow: var(--neg) 0px 0px 5px;
+}
+

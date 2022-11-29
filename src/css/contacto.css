@@ -1,0 +1,67 @@
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--sub); 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  label{
+      font-family: 'fuente';
+      font-size: 2em;
+  }
+  
+  input[type=submit] {
+    background-color: var(--sub);
+    color: var(--meld);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--sub);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: var(--mel);
+    padding: 20px;
+    margin-bottom: 10vh;
+  }
+  
+section{
+border-radius: 7px;
+border-width: 2px;
+border-color: #00000015;
+border-style: double;
+font-family:'fuente';
+margin: auto;
+margin-left:35vh;
+margin-right:35vh;
+}
+article{
+    font-family:'fuente';
+    font-size: 35px;
+}
+#contacto{
+    border:none;
+}
+.info{
+border-radius: 7px;
+border-width: 2px;
+border-color: #00000015;
+font-family:'fuente';
+margin: auto;
+margin-bottom: 10vh;
+}
+
+.info iframe{
+    margin: auto;
+    width: 50%;
+    height: 60vh;
+}

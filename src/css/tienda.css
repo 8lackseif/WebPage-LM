@@ -1,0 +1,121 @@
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+.wrap{
+	height:100%;
+	width: 95%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.wrap h1{
+	text-align:center;
+	height: 5%;
+    background-color: var(--sub);
+    border: 3px var(--meld) solid;
+    border-radius: 15px;
+    padding: 2px ;
+    font: 3em 'fuente';
+}
+.section{
+	display: flex;
+	height:95%;
+	overflow: hidden;
+    font-family: 'fuente';
+    margin-top: 2%;
+}
+.section1{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.article{
+    margin: 3px;
+	border: solid var(--meld) 2px;
+    border-radius: 15px;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: var(--sub);
+	width: 30%;
+	height: 30%;
+    box-shadow: 0px 0px 5px var(--turq);
+}
+.foto{
+    height: 45vh;
+    width: 25vw;
+    float: left;
+    margin: 2vh 3vw;
+    border: solid var(--sub);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px var(--turq);
+}
+.precio{
+    font-family: 'fuente';
+}
+h2, h3, h4{
+    color: var(--meld);
+    font-family: 'fuente';
+}
+.mas{
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.especificaciones{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: var(--bg);
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 1px;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+  .especificaciones p{
+    font: 1em sans-serif;
+  }
+  .active1, .mas:hover{
+    background-color: var(--bg);
+  }
+  .active1{
+    border-radius: 0px;
+  }
+  .color{
+	display: flex;
+	overflow: hidden;
+    margin-top: 2%;
+    justify-content: space-between;
+    width: 20%;
+}
+.color1{
+    border-radius: 50%;
+	align-items: center;
+	background-color: var(--neg);
+	width: 1.2vw;
+	height: 2vh;
+}
+.color2{
+	border: solid var(--meld) 2px;
+    border-radius: 50%;
+	align-items: center;
+	background-color: var(--sub);
+	width: 1.2vw;
+	height: 2vh;
+}
+.color3{
+	border: solid var(--meld) 2px;
+    border-radius: 50%;
+	align-items: center;
+	background-color: var(--turq);
+	width: 1.2vw;
+	height: 2vh;
+    
+}
