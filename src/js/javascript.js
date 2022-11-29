@@ -16,16 +16,16 @@ for (i = 0; i < coll.length; i++) {
 
 
 var coll2 = document.getElementsByClassName("mas");
-var i;
+var j;
 
-for (i = 0; i < coll.length; i++) {
-  coll2[i].addEventListener("click", function() {
+for (j = 0; j < coll.length; j++) {
+  coll2[j].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
+    var content2 = this.nextElementSibling;
+    if (content2.style.maxHeight){
+      content2.style.maxHeight = null;
     } else {
-      content.style.maxHeight = content.scrollHeight + "px";
+      content2.style.maxHeight = content2.scrollHeight + "px";
     }
   });
 }

@@ -68,20 +68,28 @@ input[type="radio"]{
     border: var(--meld) dashed 3px;
     border-width: 3px 0px 3px 0px;
  }
+ .topic{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: left;
+ }
+ .titulo{
+    margin-left: 5vw;
+    width: 30%;
+ }
 .vermas{
-    width: 100%;
-
+    margin-right: 2vw;
 }
 .vermas a{
     text-decoration: none;
     color: var(--neg);
 }
 .vermas p{
+    padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:medium;
-    width: 5vw;
-    margin-top: 5vh;
-    margin-left: 93%;
     border: solid var(--neg) 2px;
     box-shadow: var(--neg) 0px 0px 5px;
 }
@@ -94,7 +102,32 @@ input[type="radio"]{
     width: 15vw;
     height: 25vh;
     margin-left: 2vw;
+    margin-right: 2vw;
     border: solid var(--neg) 1px;
     box-shadow: var(--neg) 0px 0px 5px;
+    overflow: hidden;
+    transition: ease-in-out 0.6s;
+}
+
+.cajita img{
+    width: 15vw;
+    height: 25vh;
+    padding: 2px;
+    float: left;
+}
+.cajita p{
+    display: block;
+    opacity: 0;
+    transition: ease-in-out 1.6s;
+}
+
+.cajita:hover {
+    width: 25vw;
+    height: 25vh;
+    overflow: visible;
+}
+
+.cajita:hover p{
+    opacity: 1;
 }
 
