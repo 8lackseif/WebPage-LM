@@ -11,6 +11,8 @@
     --neg: #000000;
     --turq: #00a7add1;
     --bg: #c4c4c4;
+    --whi: #ffffff;
+    
  }
 *{
     margin: 0;
@@ -113,6 +115,7 @@ footer{
     width: 100%;
     height: 10vh;
     background: linear-gradient(var(--mel),var(--sub));
+    margin-top: 10vh;
 }
 
 footer #copyright{
@@ -125,6 +128,7 @@ footer .quote{
     margin: 1vh;
     font-family: 'fuente';
     font-size: 2em;
+    align-items: center;
 }
 /*main*/
 main{
