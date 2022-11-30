@@ -59,7 +59,7 @@ font-family:Arial, Helvetica, sans-serif;
 margin: auto;
 margin-bottom: 10vh;
 }
-.info p{
+.info article{
   text-align: justify;
   padding: 15px;
 }
@@ -68,4 +68,34 @@ margin-bottom: 10vh;
     margin: auto;
     width: 50%;
     height: 60vh;
+}
+
+.penvio{
+  margin:auto;
+  margin-top: 48vh;
+  margin-bottom: 49vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.envio{
+  background-color: #e2776f;
+  border-radius: 7px;
+  text-shadow: 3px 2px 1px #7e423eb7;
+  box-shadow: 6px 5px 24px #666666;
+  font-family: Arial;
+  color: #fafafa;
+  padding: 19px;
+  text-decoration: none;
+}
+
+.envio:hover {
+  background: #e2776f;
+  background-image: -webkit-linear-gradient(top, #e2776f, #eb94d0);
+  background-image: -moz-linear-gradient(top, #e2776f, #eb94d0);
+  background-image: -ms-linear-gradient(top, #e2776f, #eb94d0);
+  background-image: -o-linear-gradient(top, #e2776f, #eb94d0);
+  background-image: linear-gradient(to bottom, #e2776f, #eb94d0);
+  text-decoration: none;
 }
