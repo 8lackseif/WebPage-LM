@@ -1,10 +1,10 @@
 setTimeout(function () {
      window.location.href = "contacto.html"; //will redirect to your blog page (an ex: blog.html)
-}, 6000);
+}, 3500);
 
 window.onload = updateClock;
 
-var totalTime = 5;
+var totalTime = 3;
 
 function updateClock() {
   document.getElementById('countdown').innerHTML = totalTime;
