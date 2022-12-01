@@ -3,7 +3,7 @@
     border: none;
 }
 .slider{
-   width: 75vw;
+   width: 60vw;
    height: 60vh;
    margin: auto;
    margin-top: 5vh;
@@ -11,11 +11,17 @@
    overflow: hidden;
    box-shadow: var(--neg) 0px 0px 5px;
 }
+
+.slider iframe{
+    width: 60vw;
+    height: 60vh;
+    border: none;
+}
 .navigator{
     display: flex;
     position: absolute;
     left: 50%;
-    bottom: 28vh;
+    bottom: 20vh;
     transform: translate(-50%);
 }
 .navigator .bar{
@@ -104,8 +110,10 @@ input[type="radio"]{
     margin-right: 2vw;
     box-shadow: var(--neg) 0px 0px 5px;
     overflow: hidden;
-    transition: ease-in-out 0.6s;
-    background-color: var(--sub);
+    transition: ease-in 0.6s;
+    background-color: white;
+    border: solid var(--meld) 2px;
+    box-sizing: content-box;
 }
 
 .cajita img{
@@ -127,6 +135,7 @@ input[type="radio"]{
     width: 25vw;
     height: 25vh;
     overflow: visible;
+    background-color: var(--sub);
 }
 
 .cajita:hover p{
