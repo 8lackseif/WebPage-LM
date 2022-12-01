@@ -13,7 +13,7 @@
     border: 3px var(--meld) solid;
     border-radius: 15px;
     padding: 2px;
-    font: 3em 'fuente';
+    font: 5vh 'fuente';
 }
 
 .section {
@@ -26,7 +26,6 @@
 
 .section1 {
     display: flex;
-    flex-wrap: wrap;
     align-content: space-around;
     justify-content: space-around;
 }
@@ -71,7 +70,7 @@ h4 {
 a {
     color: var(--sub);
     font-family: 'fuente';
-    font-size: 1.75em;
+    font-size: 3vh;
 }
 
 .mas {
@@ -80,7 +79,7 @@ a {
     width: 100%;
     border: none;
     outline: none;
-    font-size: 30px;
+    font-size: 4vh;
     text-align: center;
     border-radius: 0px 0px 15px 15px;
 }
@@ -94,10 +93,11 @@ a {
     margin-bottom: 1px;
     max-height: 0;
     transition: max-height 0.2s ease-out;
+    width: 100%;
 }
 
 .especificaciones p {
-    font: 1em sans-serif;
+    font: 2vh sans-serif;
 }
 
 .active1,
@@ -159,5 +159,10 @@ a {
     margin-bottom: 16px;
     resize: vertical;
     box-shadow: 0px 0px 5px var(--turq);
-    font: 1.75em 'fuente';
+    font: 3vh 'fuente';
+}
+
+.compra button:hover{
+    background-color: var(--sub);
+    border: solid var(--neg) 2px;
 }
