@@ -47,7 +47,6 @@ header{
 }
 .logo img{
     width: 100%;
-    transform: translate(0%,5%);
 }
 .logo{
     width: 12vw;
