@@ -7,7 +7,7 @@
    height: 60vh;
    margin: auto;
    margin-top: 5vh;
-   border: 1px solid var(--neg);
+   border: 2px solid var(--meld);
    overflow: hidden;
    box-shadow: var(--neg) 0px 0px 5px;
 }
