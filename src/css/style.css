@@ -166,4 +166,18 @@ p{
     font-family: 'fuente';
 }
 
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+
+  body::-webkit-scrollbar-track {
+    border-left: solid 1px var(--meld);
+
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--meld);
+    box-shadow: black -5px -5px 10px;   /* color of the scroll thumb */    /* roundness of the scroll thumb */
+  }
+
 /*Creado por Bin, Gerardo y Christian*/
