@@ -45,8 +45,8 @@ margin-left:35vh;
 margin-right:35vh;
 }
 article{
-    font-family:'fuente';
-    font-size: 35px;
+    font-family:'arial';
+    margin: 7px;
 }
 #contacto{
     border:none;
