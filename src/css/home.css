@@ -126,7 +126,7 @@ input[type="radio"]{
     opacity: 0;
     transition: ease-out 0.1s;
     margin: auto;
-    font-size: 30px;
+    font-size: 3vh;
     text-align: center;
     margin-top: 15%;
 }
