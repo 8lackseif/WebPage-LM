@@ -56,6 +56,9 @@
     background-color: var(--whi);
 }
 
+
+
+
 .precio {
     font-family: 'fuente';
 }
@@ -142,6 +145,10 @@ a {
     width: 1.2vw;
     height: 2vh;
 
+}
+
+.color1:hover,.color2:hover,.color3:hover{
+    opacity: 0.5;
 }
 
 .compra {
