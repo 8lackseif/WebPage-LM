@@ -147,37 +147,6 @@ button:hover:after {
 }
 
 
-.letters {
-  width: 50px;
-  height: 50px;
-  perspective: 600px;
-}
-
-.card {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transition: transform 1s ease-in-out;
-  transform-style: preserve-3d;
-}
-
-.card_face {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  backface-visibility: hidden;
-  font-size: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.back {
-  transform: rotateY(180deg);
-}
-
-button:hover .card {
-  transform: rotateY(180deg);
+section h3{
+  margin: 1vh 1vw;
 }
