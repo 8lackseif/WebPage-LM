@@ -111,6 +111,7 @@ nav ul li a{
     cursor: pointer;
     font-family: 'fuente';
     font-size: 3vh;
+    text-shadow: 0px 0px 2px;
 }
 nav ul li a::before{
     content: "";
@@ -152,6 +153,7 @@ footer .quote{
     font-family: 'fuente';
     font-size: 3vh;
     align-items: center;
+    text-shadow: 0px 0px 2px;
 }
 /*main*/
 main{

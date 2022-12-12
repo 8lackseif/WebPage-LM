@@ -101,6 +101,15 @@ a {
 
 .especificaciones p {
     font: 2vh sans-serif;
+    text-align: justify;
+    margin: 1vh 0.5vw;
+    padding: 2vh 1vw;
+    border: 2px dashed rgba(128, 128, 128, 0.452);
+    border-radius: 20px;
+}
+
+.especificaciones h2{
+    font-size: 4vh;
 }
 
 .active1,
